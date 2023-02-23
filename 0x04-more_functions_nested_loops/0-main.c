@@ -8,14 +8,14 @@
  */
 int main(void)
 {
-    int c;
+int c;
 
-    c = 'A';
-    printf("%c is uppercase: %d\n", c, _isupper(c));
+c = 'A';
+printf("%c is uppercase: %d\n", c, _isupper(c));
 
-    c = 'a';
-    printf("%c is uppercase: %d\n", c, _isupper(c));
+c = 'a';
+printf("%c is uppercase: %d\n", c, _isupper(c));
 
-    return (0);
+return (0);
 }
 
