@@ -1,3 +1,2 @@
-vi 0-preprocessor
-cd 0-preprocessor
-clear
+#!/bin/bash
+gcc -E $CFILE -o C
